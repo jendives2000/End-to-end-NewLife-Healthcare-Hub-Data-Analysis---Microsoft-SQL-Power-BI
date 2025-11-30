@@ -1,0 +1,4 @@
+relationship 5bcffd60-c9c5-43e6-7186-6673c552cb92
+	fromColumn: Query1.AdmissionDate
+	toColumn: DateTable.Date
+

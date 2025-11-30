@@ -1,0 +1,137 @@
+table Query1
+	lineageTag: 09dd7611-bbcd-4c79-b00f-e61508261d1d
+
+	measure 'TotalDeaths divided by Infections' =
+			
+			DIVIDE(SUM('Query1'[TotalDeaths]), SUM('Query1'[Infections]))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8f02e639-d11e-4390-bb26-55ec102fadf2
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MathematicalDivision"
+				}
+
+		changedProperty = FormatString
+
+	measure '% Death / infection' =
+			
+			[TotalDeaths divided by Infections] * 100
+		lineageTag: 71a263d5-d4f2-43c9-a442-b9cfc76ab88b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'TotalDeaths divided by TotalAdmissions' =
+			
+			DIVIDE(SUM('Query1'[TotalDeaths]), SUM('Query1'[TotalAdmissions]))
+		formatString: 0%;-0%;0%
+		lineageTag: 76bf3e6c-edba-4433-8ab8-2310afebd77c
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MathematicalDivision"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Readmissions divided by TotalAdmissions' =
+			
+			DIVIDE(SUM('Query1'[Readmissions]), SUM('Query1'[TotalAdmissions]))
+		formatString: 0%;-0%;0%
+		lineageTag: 3bb14112-3352-4983-8830-dec8b0d9ced5
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MathematicalDivision"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Infections divided by TotalAdmissions' =
+			
+			DIVIDE(SUM('Query1'[Infections]), SUM('Query1'[TotalAdmissions]))
+		formatString: 0%;-0%;0%
+		lineageTag: c4a53c7f-bce8-4b54-a0b8-cf855b7e1a9c
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MathematicalDivision"
+				}
+
+		changedProperty = FormatString
+
+	column HospitalID
+		dataType: int64
+		formatString: 0
+		lineageTag: 47f1fb99-b2e6-4ce7-a009-0b11236d3fd3
+		summarizeBy: count
+		sourceColumn: HospitalID
+
+		annotation SummarizationSetBy = Automatic
+
+	column AdmissionDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3befd2bd-df38-4167-ac79-5c2aa741f3c8
+		summarizeBy: none
+		sourceColumn: AdmissionDate
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TotalAdmissions
+		dataType: int64
+		formatString: 0
+		lineageTag: 9ef47739-5cbc-4b67-909f-3ec42c08a851
+		summarizeBy: sum
+		sourceColumn: TotalAdmissions
+
+		annotation SummarizationSetBy = Automatic
+
+	column Readmissions
+		dataType: int64
+		formatString: 0
+		lineageTag: 0501e504-1c2a-4e62-a253-95382d763736
+		summarizeBy: sum
+		sourceColumn: Readmissions
+
+		annotation SummarizationSetBy = Automatic
+
+	column Infections
+		dataType: int64
+		formatString: 0
+		lineageTag: aef11c86-b116-4d12-bd48-503b0f0aec08
+		summarizeBy: sum
+		sourceColumn: Infections
+
+		annotation SummarizationSetBy = Automatic
+
+	column TotalDeaths
+		dataType: int64
+		formatString: 0
+		lineageTag: aaacd71f-e4e4-4995-ae83-52d09bf6b7c5
+		summarizeBy: sum
+		sourceColumn: TotalDeaths
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Query1 = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("DESKTOP-3O401KK", "healthcareSQL", [Query="select#(lf)HospitalID,#(lf)AdmissionDate,#(lf)TotalAdmissions,#(lf)Readmissions,#(lf)Infections,#(lf)TotalDeaths#(lf)from new_table"]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"AdmissionDate", type date}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

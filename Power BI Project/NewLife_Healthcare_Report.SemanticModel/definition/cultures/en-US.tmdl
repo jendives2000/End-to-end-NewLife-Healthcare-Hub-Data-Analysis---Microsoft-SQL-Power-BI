@@ -1,0 +1,2605 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "query_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "query 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Query1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.hospital_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "HospitalID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hospital ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HospitalID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "hospital": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hospital identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hospital identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hospital identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hospital credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "infirmary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hospice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sickbay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sanatorium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "clinic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.admission_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "AdmissionDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "admission date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AdmissionDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "admission moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "admission period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "query_1.total_admission": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "TotalAdmissions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total admission": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalAdmissions": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "admission": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate admission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall admission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "total admittance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "total permission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.readmission": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "Readmissions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "readmission": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.infection": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "Infections"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "infection": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "contagion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "contamination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pollution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "impurity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dirt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "septicity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "toxicity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "infectivity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "corruption": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "taint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.total_death": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "TotalDeaths"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total death": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalDeaths": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "death": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate death": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall death": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total expiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total bereavement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total loss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "expiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bereavement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "loss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total demise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total passing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.TotalDeaths_divided_by_infections": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "TotalDeaths divided by Infections"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TotalDeaths divided by infections": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.death___infection": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "% Death / infection"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% death / infection": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "% death": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "% death infection": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "percentage death / infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "percentage death infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "percentage death": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct death / infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "pct death infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "pct death": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "% death / contagion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "% death / contamination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "% death / pollution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "% death / impurity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.TotalDeaths_divided_by_TotalAdmissions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "TotalDeaths divided by TotalAdmissions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TotalDeaths divided by TotalAdmissions": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "of all Admissions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.readmissions_divided_by_TotalAdmissions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "Readmissions divided by TotalAdmissions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "readmissions divided by TotalAdmissions": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "of all Admissions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "query_1.infections_divided_by_TotalAdmissions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Query1",
+			          "ConceptualProperty": "Infections divided by TotalAdmissions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "infections divided by TotalAdmissions": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "contagion divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "contamination divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "pollution divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "impurity divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "toxicity divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "corruption divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "taint divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "poison divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "disease divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "illness divided by totaladmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "of all Admissions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "date_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DateTable": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "moment table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "date tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.month_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Month Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.yearmonth": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Year-Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year-month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year-mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "year mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr -month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "yr month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.week_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Week Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "week number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "week no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.day_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Day of Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of week": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.day_of_week_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Day of Week Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of week number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day of week no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.quarter_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "ConceptualProperty": "Quarter Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "qtr number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "moment hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "date ladder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date grading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date pyramid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ladder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pyramid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date_hierarchy.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date_hierarchy.day_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateTable",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day of Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of week": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    }
+			  },
+			  "Relationships": {
+			    "date_table_date_hierarchy_has_day_of_week": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy"
+			          }
+			        },
+			        "date_table.date_hierarchy.day_of_week": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy.day_of_week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date_hierarchy.day_of_week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_day_of_week"
+			        }
+			      ]
+			    },
+			    "date_table_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy"
+			          }
+			        },
+			        "date_table.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "date_table_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy"
+			          }
+			        },
+			        "date_table.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "date_table_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy"
+			          }
+			        },
+			        "date_table.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "date_table_date_hierarchy_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy"
+			          }
+			        },
+			        "date_table.date_hierarchy.date": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date_hierarchy.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_dates"
+			        }
+			      ]
+			    },
+			    "query_1_has_date_table": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "date_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_date_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "query_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_query_1"
+			        }
+			      ]
+			    },
+			    "date_table_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "date_table_has_quarter_number": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.quarter_number": {
+			          "Target": {
+			            "Entity": "date_table.quarter_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.quarter_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_quarter_numbers"
+			        }
+			      ]
+			    },
+			    "date_table_has_day_of_week_number": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.day_of_week_number": {
+			          "Target": {
+			            "Entity": "date_table.day_of_week_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.day_of_week_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_day_of_week_number"
+			        }
+			      ]
+			    },
+			    "date_table_has_day_of_week": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.day_of_week": {
+			          "Target": {
+			            "Entity": "date_table.day_of_week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.day_of_week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_day_of_week"
+			        }
+			      ]
+			    },
+			    "date_table_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.day": {
+			          "Target": {
+			            "Entity": "date_table.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_days"
+			        }
+			      ]
+			    },
+			    "date_table_has_week_number": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.week_number": {
+			          "Target": {
+			            "Entity": "date_table.week_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.week_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_week_numbers"
+			        }
+			      ]
+			    },
+			    "date_table_has_yearmonth": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.yearmonth": {
+			          "Target": {
+			            "Entity": "date_table.yearmonth"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.yearmonth"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_yearmonths"
+			        }
+			      ]
+			    },
+			    "date_table_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.month": {
+			          "Target": {
+			            "Entity": "date_table.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_months"
+			        }
+			      ]
+			    },
+			    "date_table_has_month_number": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.month_number": {
+			          "Target": {
+			            "Entity": "date_table.month_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.month_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_month_numbers"
+			        }
+			      ]
+			    },
+			    "date_table_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.quarter": {
+			          "Target": {
+			            "Entity": "date_table.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_quarters"
+			        }
+			      ]
+			    },
+			    "date_table_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.year": {
+			          "Target": {
+			            "Entity": "date_table.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_years"
+			        }
+			      ]
+			    },
+			    "date_table_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "DateTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.date": {
+			          "Target": {
+			            "Entity": "date_table.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_dates"
+			        }
+			      ]
+			    },
+			    "query_1_has_infections_divided_by_TotalAdmissions": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.infections_divided_by_TotalAdmissions": {
+			          "Target": {
+			            "Entity": "query_1.infections_divided_by_TotalAdmissions"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.infections_divided_by_TotalAdmissions"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_infections_divided_by_TotalAdmissions"
+			        }
+			      ]
+			    },
+			    "query_1_has_readmissions_divided_by_TotalAdmissions": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.readmissions_divided_by_TotalAdmissions": {
+			          "Target": {
+			            "Entity": "query_1.readmissions_divided_by_TotalAdmissions"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.readmissions_divided_by_TotalAdmissions"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_readmissions_divided_by_TotalAdmissions"
+			        }
+			      ]
+			    },
+			    "query_1_has_TotalDeaths_divided_by_TotalAdmissions": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.TotalDeaths_divided_by_TotalAdmissions": {
+			          "Target": {
+			            "Entity": "query_1.TotalDeaths_divided_by_TotalAdmissions"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.TotalDeaths_divided_by_TotalAdmissions"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_TotalDeaths_divided_by_TotalAdmissions"
+			        }
+			      ]
+			    },
+			    "query_1_has_death___infection": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.death___infection": {
+			          "Target": {
+			            "Entity": "query_1.death___infection"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.death___infection"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have__death___infection"
+			        }
+			      ]
+			    },
+			    "query_1_has_TotalDeaths_divided_by_infections": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.TotalDeaths_divided_by_infections": {
+			          "Target": {
+			            "Entity": "query_1.TotalDeaths_divided_by_infections"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.TotalDeaths_divided_by_infections"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_TotalDeaths_divided_by_infections"
+			        }
+			      ]
+			    },
+			    "query_1_has_total_death": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.total_death": {
+			          "Target": {
+			            "Entity": "query_1.total_death"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.total_death"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_total_deaths"
+			        }
+			      ]
+			    },
+			    "query_1_has_infection": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.infection": {
+			          "Target": {
+			            "Entity": "query_1.infection"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.infection"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_infections"
+			        }
+			      ]
+			    },
+			    "query_1_has_readmission": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.readmission": {
+			          "Target": {
+			            "Entity": "query_1.readmission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.readmission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_readmissions"
+			        }
+			      ]
+			    },
+			    "query_1_has_total_admission": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.total_admission": {
+			          "Target": {
+			            "Entity": "query_1.total_admission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.total_admission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_total_admissions"
+			        }
+			      ]
+			    },
+			    "query_1_has_admission_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.admission_date": {
+			          "Target": {
+			            "Entity": "query_1.admission_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.admission_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_admission_dates"
+			        }
+			      ]
+			    },
+			    "query_1_has_hospital_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Query1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "query_1": {
+			          "Target": {
+			            "Entity": "query_1"
+			          }
+			        },
+			        "query_1.hospital_ID": {
+			          "Target": {
+			            "Entity": "query_1.hospital_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "query_1"
+			            },
+			            "Object": {
+			              "Role": "query_1.hospital_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "query_1_have_hospital_ID"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

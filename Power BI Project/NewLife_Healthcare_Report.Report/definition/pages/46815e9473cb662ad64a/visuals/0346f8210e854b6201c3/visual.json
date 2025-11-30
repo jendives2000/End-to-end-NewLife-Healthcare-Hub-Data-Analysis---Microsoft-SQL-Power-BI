@@ -1,0 +1,76 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.1.0/schema.json",
+  "name": "0346f8210e854b6201c3",
+  "position": {
+    "x": 0,
+    "y": 6.3671875,
+    "z": 1000,
+    "height": 163.75,
+    "width": 415.625,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "🧬",
+                    "textStyle": {
+                      "fontFamily": "DIN",
+                      "fontSize": "44pt"
+                    }
+                  },
+                  {
+                    "value": "NEWLIFE",
+                    "textStyle": {
+                      "fontFamily": "DIN",
+                      "fontSize": "44pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Hospitals Hub",
+                    "textStyle": {
+                      "fontFamily": "DIN Light",
+                      "fontStyle": "italic",
+                      "fontSize": "44pt",
+                      "color": "#b3b3b3"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "66393b3be55077b41b03"
+}

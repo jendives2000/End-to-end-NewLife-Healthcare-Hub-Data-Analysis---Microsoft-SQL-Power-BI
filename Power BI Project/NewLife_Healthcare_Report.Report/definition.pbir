@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../NewLife_Healthcare_Report.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

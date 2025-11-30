@@ -1,0 +1,76 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.1.0/schema.json",
+  "name": "02ddebc4c75bd3265420",
+  "position": {
+    "x": 7.6686390532544344,
+    "y": 6.7692307692307736,
+    "z": 1000,
+    "height": 89.84615384615384,
+    "width": 193.84615384615384,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "🧬",
+                    "textStyle": {
+                      "fontFamily": "DIN",
+                      "fontSize": "24pt"
+                    }
+                  },
+                  {
+                    "value": "NEWLIFE",
+                    "textStyle": {
+                      "fontFamily": "DIN",
+                      "fontSize": "24pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Hospital Hub",
+                    "textStyle": {
+                      "fontFamily": "DIN Light",
+                      "fontStyle": "italic",
+                      "fontSize": "24pt",
+                      "color": "#b3b3b3"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "ae85172300729be10440"
+}
