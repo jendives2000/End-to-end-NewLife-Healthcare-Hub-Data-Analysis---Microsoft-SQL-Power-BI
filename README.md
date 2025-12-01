@@ -44,20 +44,19 @@ Core KPIs analyzed:
 - ☠️ Deaths  
 
 This analysis was performed with:  
-**SQL** → Built a fully synthetic, HIPAA-safe clinical dataset of 20M records using automated SQL-based data generation loops (**MS SQL Server**).  
-**Power BI** → interactive operational report - link to the report here.
+**SQL** → Built a fully synthetic, HIPAA-safe clinical dataset of 20M records using SQL-based data generation loops (**MS SQL Server**).  
+**Power BI** → interactive report with branding and key visualizations - link to the report or to the report here project folder [here](./Power%20BI%20Project). 
 
 ---
 
 ## 📃 Workflow
-Firstly, SQL code was used directly at the data source - MS SQL Server - to generate the 20M records clinical dataset  - find the SQL code here.  
+Firstly, SQL code was used directly at the data source - MS SQL Server - to generate the 20M records clinical dataset  - find the SQL code [here](./SQL/SQL_Code_For_SyntheticData.sql).  
 
-Secondly, more SQL code was used to do data profiling over the dataset as it is more time-efficient do so at the source  - find the SQL code here.  
-
-Thirdly, an update of the dataset was simulated. A common hurdle was encountered and fixed: date years mismatch. The minimum and maximum year values were not matching, the SQL code prevented this. 
+Secondly, more SQL code was used to do data profiling over the dataset as it is more time-efficient do so at the source  - find the SQL code [here](./SQL/SQL_for_Profiling_Data.sql).
+In that same SQL code, an update of the dataset was simulated. A common hurdle was encountered and fixed: date years mismatch. The minimum and maximum year values were not matching, the SQL code prevented this. 
 
 Then only relevant columns were imported into Power BI via the SQL import feature and processed and analysed for report building.  
-Following best practices, a date table was created using DAX, ensuring proper date hierarchy.  
+Following best practices, a date table was created using DAX, ensuring proper date hierarchy from Year down to week number and day of the week.  
 The simplicity of the dataset did not call for data modeling.  
 Usually the report is then distributed from within members and stakeholders of the organization, with set access over specific lines or columns of data. Here it was just publicly made available without any secured access needed. 
 
