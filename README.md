@@ -24,7 +24,7 @@
   - [⚠️ Assumptions \& Caveats](#️-assumptions--caveats)
   - [📚 Learnings](#-learnings)
   - [Next Steps](#next-steps)
-  - [📎 Resources \& File Structure](#-resources--file-structure)
+  - [📎 Resources \& Files](#-resources--files)
 
 ---
 
@@ -64,9 +64,9 @@ Usually the report is then distributed from within members and stakeholders of t
 
 ## 🧱 Data Structure & ERD
 
-The data model consists of **4 clinical outcome tables**:
+The data model consists of **4 clinical columns** with data spanning over 6 years - 2024 to 2030 (this is not a forecast):
 
-| Table | Description | Rows |
+| Table | Description | Total |
 |---|---|---:|
 | `Admissions` | All patient intake per hospital & year | 1.33B |
 | `Readmissions` | Repeat visits within a defined post-care window | 61M |
@@ -77,7 +77,7 @@ The data model consists of **4 clinical outcome tables**:
 
 ![alt text](./pics/image-1.png)  
 
-The column 'AverageLengthOfStay' was excluded during import within Power BI as it is not needed.
+The column 'AverageLengthOfStay' was excluded during import within Power BI as it was not needed.
 
 ---
 
@@ -87,7 +87,7 @@ The column 'AverageLengthOfStay' was excluded during import within Power BI as i
 
 ### Top 3 insights for leadership:
 1️⃣ **Performance is balanced across all 10 hospitals**  
-Variance across outcomes is **<0.03%**, showing a unified system.
+Variance across all hospitals for each column total is **<0.03%**, showing a unified system.
 
 2️⃣ **Clinical care is high-value and safe**  
 | Metric | Result |
@@ -101,8 +101,13 @@ Variance across outcomes is **<0.03%**, showing a unified system.
 → Effectively lowering network burden
 
 📊 Dashboard Screenshot:  
+Re-admissions / Admissions
 ![Re-admissions / Admissions](./pics/image-2.png)
+
+Infections / Admissions
 ![Infections / Admissions](./pics/image-3.png)
+
+Deaths / Admissions
 ![Deaths / Admissions](./pics/image-4.png)
 
 ---
@@ -132,7 +137,7 @@ Variance across outcomes is **<0.03%**, showing a unified system.
 📌 Interpretation:
 > Infection prevention protocols are strong, standardized & improving
 
-![Infection Control & Patient Safety](./pics/./pics/image-6.png)
+![Infection Control & Patient Safety](./pics/image-6.png)
 
 ---
 
@@ -177,13 +182,13 @@ Variance across outcomes is **<0.03%**, showing a unified system.
 - High mortality/infection ratio is due to **case severity**, not poor care  
 - Drop in hospital dependency assumes **prevention and digital-care adoption** were initiated and are active - present time is assumed to be sometime after year 2030 (it is not a forecast)
 - Synthetic dataset may **not reflect reality** 
-- Hospital identifiers anonymized for privacy and **HIPAA compliance** 
+- No hospital identifiers columns for privacy and **HIPAA compliance** concerns 
 
 ---
 ## 📚 Learnings
 The SQL syntax in MS SQL Server is slightly different, however the logic used for loops in the SQL code is very similar to the one seen in Python loops. Using this specific syntax felt familiar. 
 
-My healthcare domain knowledge was expanded with this project. While the synthetic dataset I created provided enough data to conduct an analysis, the dataset still feels as if it is lacking depth. Data variables like age, zip code, gender, diagnostic, severity of diagnosis, department of admission, etc, enable deeper analysis and insights. 
+My healthcare domain knowledge was expanded with this project. While the synthetic dataset I created provided enough data to conduct an analysis, the dataset still feels as if it is lacking depth. Data variables like age, zip code, gender, diagnostic, severity of diagnosis, department of admission, etc, would enable deeper analysis and insights. 
 
 ---
 ## Next Steps
@@ -206,15 +211,17 @@ Add synthetic financial performance tables:
 - ICU daily cost multipliers
 - Bed turnover revenue effects
 
-With those we can calculate Avoidable Cost Savings from admissions, readmissions, infections, ICU days, etc., by extracting a baseline volume and/or rate and a capturing data on new volume after improvement. 
+With those we can calculate Avoidable Cost Savings from admissions, readmissions, infections, ICU days, etc., by extracting a baseline volume and/or rate, and then capturing data on new volume (after improvement). 
 
 **Demographics, Case & Clinical Severity Data:**  
-Data on the followings will deppen analysis on Mortality/Infection, patient segmentation, sharper KPIs, risk stratification analysis: 
+Data on the followings will deepen analysis on Mortality/Infection, patient segmentation, sharper KPIs: 
 
 - age groups, gender, zip, insurance type
 - comorbidity index, admission type, ICD-10 group, ICU/Regular Ward
 
 ---
 
-## 📎 Resources & File Structure
-- Power BI: following best practice, the report source files are available as a packaged project file [here](/Power%20BI%20Project/)
+## 📎 Resources & Files
+- Power BI: following best practices, the report source files are available as a packaged project file [here](/Power%20BI%20Project/)41
+- The Power BI report is available online [here](https://app.powerbi.com/view?r=eyJrIjoiMzE0YjU5YTMtMGRiZC00ZjJjLWI3YzctMjQ2NWNjYjEyZmIxIiwidCI6ImM5YTM3Nzk4LTFjNGQtNDY2Ni04YTczLTMzY2M2MzE0ZmVmZSJ9&pageName=46815e9473cb662ad64a).
+- SQL: all the sql queries used are within 2 sql files that are saved in this [folder](./SQL/).
