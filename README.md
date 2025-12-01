@@ -2,7 +2,7 @@
 ### 🌐 Clinical Data Analysis (2024–2030)  
 *Power BI • SQL • End-to-End BI*
 
-![alt text](image.png) <!-- Replace with final banner path -->
+![alt text](./pics/image.png) <!-- Replace with final banner path -->
 
 ---
 
@@ -76,7 +76,7 @@ The data model consists of **4 clinical outcome tables**:
 
 📌 ERD:
 
-![alt text](image-1.png)  
+![alt text](./pics/image-1.png)  
 
 The column 'AverageLengthOfStay' was excluded during import within Power BI as it is not needed.
 
@@ -102,9 +102,9 @@ Variance across outcomes is **<0.03%**, showing a unified system.
 → Effectively lowering network burden
 
 📊 Dashboard Screenshot:  
-![Re-admissions / Admissions](image-2.png)
-![Infections / Admissions](image-3.png)
-![Deaths / Admissions](image-4.png)
+![Re-admissions / Admissions](./pics/image-2.png)
+![Infections / Admissions](./pics/image-3.png)
+![Deaths / Admissions](./pics/image-4.png)
 
 ---
 
@@ -121,7 +121,7 @@ Variance across outcomes is **<0.03%**, showing a unified system.
 📌 Interpretation:  
 > Hub is distributing patient load efficiently → no overload risk
 
-![admissions performance](image-5.png)
+![admissions performance](./pics/image-5.png)
 
 ---
 
@@ -133,7 +133,7 @@ Variance across outcomes is **<0.03%**, showing a unified system.
 📌 Interpretation:
 > Infection prevention protocols are strong, standardized & improving
 
-![Infection Control & Patient Safety](image-6.png)
+![Infection Control & Patient Safety](./pics/./pics/image-6.png)
 
 ---
 
@@ -145,7 +145,7 @@ Variance across outcomes is **<0.03%**, showing a unified system.
 📌 Interpretation:
 > Network treats highly critical patients while maintaining stable survival rates
 
-![Mortality Risk & Severity](image-7.png)
+![Mortality Risk & Severity](./pics/image-7.png)
 
 ---
 
@@ -158,7 +158,7 @@ Variance across outcomes is **<0.03%**, showing a unified system.
 📌 Interpretation:
 > Prevention & digital health strategies significantly reduce hospital dependency
 
-![Strategies Outcome](image-8.png)
+![Strategies Outcome](./pics/image-8.png)
 
 ---
 
