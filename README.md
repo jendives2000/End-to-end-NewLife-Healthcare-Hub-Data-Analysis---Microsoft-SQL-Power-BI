@@ -98,8 +98,8 @@ Variance across all hospitals for each column total is **<0.03%**, showing a uni
 | Deaths / Admissions | **1%** |
 
 3️⃣ **A transformative improvement occurs post-2029**  
-→ Sharp drop in admissions, infections & deaths  
-→ Effectively lowering network burden
+→ Sharp drop in admissions, infections & deaths: ~11% drop in each category between 2029 and 2030  
+→ Effectively lowering network burden: ~17M less admissions (from ~192M to ~175M)
 
 📊 Dashboard Screenshot:  
 Re-admissions / Admissions
