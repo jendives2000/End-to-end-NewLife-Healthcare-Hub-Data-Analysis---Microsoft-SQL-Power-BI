@@ -1,6 +1,6 @@
 # 🏥 NewLife Hospital Hub  
 ### 🌐 Clinical Data Analysis (2024–2030)  
-*Power BI • SQL • End-to-End BI*
+*Power BI • SQL • End-to-End BI Analysis*
 
 ![alt text](./pics/image.png) <!-- Replace with final banner path -->
 
