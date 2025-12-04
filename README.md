@@ -213,7 +213,7 @@ Deaths / Admissions
 - Complex bookmarks for an efficient interactive UI
 
 **Healthcare Domain Knowledge:**  
-- Gained initial experience analyzing core hospital performance metrics (admissions, readmissions, infections, mortality)
+- Gained initial knowledge on core hospital performance metrics (admissions, readmissions, infections, mortality)
 - Recognized the importance of **additional clinical context** for deeper insights
 - Identified key missing variables:
   - Age groups, gender, ZIP code  
