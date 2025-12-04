@@ -1,6 +1,6 @@
 # 🏥 NewLife Hospital Hub  
-### 🌐 Clinical Data Analysis (2024–2030)  
-*Power BI • SQL • End-to-End BI Analysis*
+### 🌐 Clinical Data Analysis (2024–2030): Synthetic Hospital Admissions  
+*Power BI • SQL • BI Analysis*
 
 ![alt text](./pics/image.png) <!-- Replace with final banner path -->
 
@@ -8,7 +8,7 @@
 
 ## 📌 Table of Contents
 - [🏥 NewLife Hospital Hub](#-newlife-hospital-hub)
-    - [🌐 Clinical Data Analysis (2024–2030)](#-clinical-data-analysis-20242030)
+    - [🌐 Clinical Data Analysis (2024–2030): Synthetic Hospital Admissions](#-clinical-data-analysis-20242030-synthetic-hospital-admissions)
   - [📌 Table of Contents](#-table-of-contents)
   - [📊 Project Background](#-project-background)
   - [📃 Workflow](#-workflow)
@@ -22,7 +22,7 @@
     - [🚀 Category 4 — Strategies Outcome \& Future Impact](#-category-4--strategies-outcome--future-impact)
   - [🎯 Recommendations](#-recommendations)
   - [⚠️ Assumptions \& Caveats](#️-assumptions--caveats)
-  - [📚 Learnings](#-learnings)
+  - [📚 Learnings \& Practice](#-learnings--practice)
   - [Next Steps](#next-steps)
   - [📎 Resources \& Files](#-resources--files)
   - [About me](#about-me)
@@ -30,19 +30,20 @@
 ---
 
 ## 📊 Project Background
-NewLife Hospital Hub is one of the largest multi-hospital healthcare networks, operating across **10 facilities** and delivering more than **1.33 billion patient visits** over the analysis period (2024–2030).
+This **learning & portfolio project** project **simulates a hospital network BI scenario** to practice SQL-driven data generation, data profiling, KPI calculation, and Power BI dashboard development. Practical BI delivery skills are showcased in a healthcare context.
 
-As the BI Analyst on this project, the objectives were:
-- Evaluating performance consistency across the hospitals network  
-- Measuring clinical risk exposure (readmissions, infections, mortality)  
-- Measuring the impact of long-term improvement strategies (year 2030 is present year)
-- Supporting leadership with insights that guide innovation, prevention, and hospital capacity planning  
+It uses a simple **synthetic dataset** representing 6 daily hospital metrics across 10 fictitious facilities over multiple years. The goal was to:
+
+- Explore trends in admissions, readmissions, infections & mortality
+- Practice transparency around data quality and assumptions while demonstrating business thinking and insights capabilities
+- Present insights visually for decision-makers
+- Present a data analysis project professionally in a GitHub repo such as this present one
 
 Core KPIs analyzed:
 - 🏥 Admissions  
-- 🔁 Readmissions  
-- 🦠 Infections  
-- ☠️ Deaths  
+- 🔁 Readmissions / Admissions Rate  
+- 🦠 Infections / Admissions Rate  
+- ☠️ Deaths / Infections Rate  
 
 This analysis was performed with:  
 **SQL** → Built a fully synthetic, HIPAA-safe clinical dataset of 20M records using SQL-based data generation loops (**MS SQL Server**).  
@@ -51,12 +52,15 @@ This analysis was performed with:
 ---
 
 ## 📃 Workflow
-Firstly, SQL code was used directly at the data source - MS SQL Server - to generate the 20M records clinical dataset  - find the SQL code [here](./SQL/SQL_Code_For_SyntheticData.sql).  
+1️⃣ **SQL — Data creation**  
+Simulated 20M rows of hospital data using loops in MS SQL Server  - find the SQL code [here](./SQL/SQL_Code_For_SyntheticData.sql).  
 
+2️⃣ **SQL — Data profiling & Update**  
 Secondly, more SQL code was used to do data profiling over the dataset as it is more time-efficient do so at the source  - find the SQL code [here](./SQL/SQL_for_Profiling_Data.sql).
 In that same SQL code, an update of the dataset was simulated, meaning more data was added on top of the first initial data (more years of data). That SQL code prevented years mismatch, ensuring data integrity. 
 
-Then only relevant columns were imported into Power BI via the SQL import feature and processed and analysed for report building.  
+3️⃣ **Power BI — Import & Modeling Basics**  
+Then only relevant columns were imported into Power BI via a SQL query and processed and analysed for report building.  
 Following best practices, a date table was created using DAX, ensuring proper date hierarchy.  
 The simplicity of the dataset did not call for data modeling.  
 Usually the report is then safely and selectively distributed to members and stakeholders of the organization. Here it was instead publicly made available without any secured access needed. 
@@ -65,7 +69,7 @@ Usually the report is then safely and selectively distributed to members and sta
 
 ## 🧱 Data Structure & ERD
 
-The data model consists of **4 clinical columns** with data spanning over 6 years - 2024 to 2030 (this is not a forecast):
+The data model consists of **6 clinical columns** with data spanning over 6 years - 2024 to 2030 (this is not a forecast):
 
 | Table | Description | Total |
 |---|---|---:|
@@ -74,15 +78,21 @@ The data model consists of **4 clinical columns** with data spanning over 6 year
 | `Infections` | Clinical infection incidents | 27M |
 | `Deaths` | In-hospital mortality | 16M |
 
+HospitalID ranges from 1 to 10 and represents each facility.  
+AdmissionDate was linked to a new date table for full, granular time hierarchy. 
+
 📌 ERD:
 
 ![Simple ERD](./pics/image-1.png)  
 
 The column 'AverageLengthOfStay' was excluded during import within Power BI as it was not needed.
 
+→ Simple data structure but sufficient for demonstrating BI mechanics
+
 ---
 
 ## 📈 Executive Summary
+*Reminder: This is a fictitious summary, based on the analysis of the synthetic data.*  
 
 > **The NewLife Hospitals Hub delivers exceptionally consistent and safe care across the network — with major clinical improvements in 2030 explaining a sharp drop in the same year.**
 
@@ -182,19 +192,37 @@ Deaths / Admissions
 ## ⚠️ Assumptions & Caveats
 - High mortality/infection ratio is due to **case severity**, not poor care  
 - Drop in hospital dependency assumes **prevention and digital-care adoption** were initiated and are still active - present time is assumed to be sometime after year 2030 (it is not a forecast)
-- Synthetic dataset may **not reflect reality** 
 - No hospital identifiers columns for privacy and **HIPAA compliance** concerns 
 
----
-## 📚 Learnings
-While this project illustrates what is an end-to-end data analysis, nothing significantly new was learnt. So even if I learnt some intricacies of the MS SQL syntax and deepened my healthcare knowledge, this project ended up being more of a practice work on Power BI.  
+**Data Limitations:**
+- Fully synthetic dataset — not based on real patients
+- Simplified metrics — no demographics, no diagnosis groups
+- Limited feature depth restricts causal insights
 
+
+---
+## 📚 Learnings & Practice
 **SQL:**  
-The SQL syntax in MS SQL Server is slightly different, however the logic used for loops in the SQL code is very similar to the one seen in Python loops. Using this specific syntax felt familiar. 
-Data profiling is indeed faster when queried at the source instead of from within Power BI. However for column distribution, MS SQL Server does not show columns, only numerical frequencies.  
+- Practiced loops, random value generation using MS SQL Syntax
+- Reinforced data profiling importance early in pipeline  
+
+**Power BI**
+- Slicers, metrics, SQL import
+- DAX Date dimension for proper filtering
+- Applied Storytelling and Design best practices
+- Complex bookmarks for an efficient interactive UI
 
 **Healthcare Domain Knowledge:**  
-My healthcare domain knowledge was slightly expanded with this project. While the synthetic dataset I created provided enough data to conduct an analysis, the dataset still feels as if it is lacking depth. More time could have been spent on elaborating more data variables such as age, zip code, gender, diagnostic, severity of diagnosis, department of admission, etc. They would have enabled deeper analysis and insights. 
+- Gained initial experience analyzing core hospital performance metrics (admissions, readmissions, infections, mortality)
+- Recognized the importance of **additional clinical context** for deeper insights
+- Identified key missing variables:
+  - Age groups, gender, ZIP code  
+  - Diagnosis / severity indicators  
+  - Admission department or case type  
+- Understood how richer data would enable:
+  - Improved patient segmentation  
+  - More realistic risk and outcome comparisons  
+  - Increased decision-making relevance for healthcare stakeholders  
 
 ---
 ## Next Steps
