@@ -267,4 +267,4 @@ Jean-Yves Tran | [LinkedIn](https://www.linkedin.com/in/jytran-datascience/) | [
 
 I am a Junior Data Analyst transitioning from 9+ years as a senior freelance motion designer. I use Power BI, SQL & Python to turn raw data into clear, actionable reports for stakeholders. 
 
-I love working with data because I enjoy finding root causes and explanations behind problems. Understanding how numbers reflect business processes feels like one of the most concrete ways to grasp how a company truly operates. I also appreciate that my work can influence future decisions and create real impact. I’m also driven by continuous learning, and data analytics gives me that every day.
+I love working with data because I enjoy finding root causes and explanations behind problems. Understanding how numbers reflect business processes feels like one of the most concrete ways to grasp how a company truly operates. I also appreciate that my work can influence future decisions and create real impact. I’m  driven by continuous learning, and data analytics gives me that every day.
